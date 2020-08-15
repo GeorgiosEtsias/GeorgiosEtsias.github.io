@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Georgios Etsias"
-  avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/ProfilePic.jfif" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
   location         : "Belfast, UK"
   email            :
