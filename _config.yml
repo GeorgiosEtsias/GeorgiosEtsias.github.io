@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Georgios Etsias"
   avatar           : "/images/ProfilePic.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Portfolio"
+  bio              : "Machine Learning Portfolio"
   location         : "Belfast, UK"
   email            :
   uri              :
