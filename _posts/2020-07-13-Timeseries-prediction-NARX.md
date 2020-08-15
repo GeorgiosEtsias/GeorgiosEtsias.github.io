@@ -1,10 +1,10 @@
 ---
 title: "Time series prediction using NARX "
 date: 2020-07-13
-tags: [neural networks, tiemseries, NARX]
+tags: [neural networks, time series, NARX]
 header:
   
-excerpt: "Neural networks,timeseries, NARX"
+excerpt: "Neural networks, Time series, NARX"
 mathjax: "true"
 ---
 
