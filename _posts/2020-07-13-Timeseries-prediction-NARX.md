@@ -1,10 +1,10 @@
 ---
 title: "Time series prediction using NARX "
 date: 2020-07-13
-tags: [neural networks, genetic algorithm, heuristics]
+tags: [neural networks, tiemseries, NARX]
 header:
   image: "/images/perceptron/percept.jpg"
-excerpt: "Neural networks, Genetic algorithm, Heuristics"
+excerpt: "Neural networks,timeseries, NARX"
 mathjax: "true"
 ---
 
