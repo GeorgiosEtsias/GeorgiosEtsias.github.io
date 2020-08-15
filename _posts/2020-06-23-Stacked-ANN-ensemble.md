@@ -1,10 +1,10 @@
 ---
 title: "Stacked ANN ensemble "
 date: 2020-06-23
-tags: [neural networks, tiemseries, NARX]
+tags: [neural networks, stacking, ensemble learning]
 header:
   
-excerpt: "Neural networks,timeseries, NARX"
+excerpt: "Neural networks, stacking, ensemble learning"
 mathjax: "true"
 ---
 The current project introduces a script building a stacked learning ensemble, containing a single multilayered ANN (Level-1 learner or meta-learner) trained using the predictions (meat-data) of a number of ANNs (Level-0 learners).
