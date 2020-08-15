@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/zakim.jpg"
+  image: "/images/queens_belfast00.jpg"
 ---
 
 I am a civil/environmental engineer with a solid background in machine learning, image analysis and experimental data filtering. I have conducted research in the United Kingdom, United States and Greece. 
