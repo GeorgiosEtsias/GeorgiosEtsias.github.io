@@ -3,7 +3,7 @@ title: "Time series prediction using NARX "
 date: 2020-07-13
 tags: [neural networks, tiemseries, NARX]
 header:
-  image: "/images/perceptron/percept.jpg"
+  image: "/images/dynamic_narx.jpg"
 excerpt: "Neural networks,timeseries, NARX"
 mathjax: "true"
 ---
