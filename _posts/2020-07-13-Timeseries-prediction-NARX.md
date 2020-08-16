@@ -32,6 +32,4 @@ The [optimally trained NARX](https://github.com/GeorgiosEtsias/Time-series-predi
 
 <img src="https://github.com/GeorgiosEtsias/GeorgiosEtsias.github.io/blob/master/images/Results%20NARX/Results.png" alt="Flowers in Chania">
 
-<img src="img_chania.jpg" alt="Flowers in Chania" width="460" height="345">
-
 Figure 1: Real and predicted values of exhaust fume temperature for 3 distinct experimental drive cycles. 
