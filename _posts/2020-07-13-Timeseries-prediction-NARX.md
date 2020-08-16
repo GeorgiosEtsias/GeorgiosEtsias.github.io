@@ -4,7 +4,7 @@ date: 2020-07-13
 tags: [neural networks, time series, NARX]
 header:
   
-excerpt: "Neural networks, Time series, NARX"
+excerpt: "Neural networks, Time series, NARX, MatLab"
 mathjax: "true"
 ---
 
