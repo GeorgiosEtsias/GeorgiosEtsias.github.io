@@ -29,4 +29,4 @@ Two variation of prediction scripts were included. The first one ([Prediction.m]
 The [optimally trained NARX](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/tree/master/OptimallyTrainedANNs) was able to successfully predict all 3 testing datasets, each one corresponding to a single driving cycle. For the first 1/3 of the prediction an opened loop NARX version was utilised, while for the remaining time series data points a closed-loop one was employed.  The prediction results are displayed [here](https://github.com/GeorgiosEtsias/GeorgiosEtsias.github.io/blob/master/images/Results%20NARX/Results.png).
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Results%20NARX/Results.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Results%20NARX/Results.png" alt="l try">
