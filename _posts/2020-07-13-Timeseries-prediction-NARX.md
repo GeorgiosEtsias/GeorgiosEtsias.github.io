@@ -30,7 +30,7 @@ The [optimally trained NARX](https://github.com/GeorgiosEtsias/Time-series-predi
 
 ![alt text](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/blob/master/Results/Results.png)
 
-<img src="/images/Results NARX/Results.png"
+<img src="/images/Results NARX/Results.png" alt="Flowers in Chania"
 
 <img src="img_chania.jpg" alt="Flowers in Chania" width="460" height="345">
 
