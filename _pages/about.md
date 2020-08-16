@@ -9,4 +9,4 @@ I am a civil/environmental engineer and an aspiring data scientist, with a solid
 
 I currently work on the application of machine learning techniques (ANNs, SVMs, decision trees) on the analysis of experimental images of groundwater flow. I am proficient in three programing languages, and have a deep knowledge of statistics and optimization algorithms.
 
-Take a look in my CV!
+Take a look in my [CV](blob/master/_pages/Etsias%20cv.pdf)!
