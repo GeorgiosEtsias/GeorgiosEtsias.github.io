@@ -30,4 +30,6 @@ The [optimally trained NARX](https://github.com/GeorgiosEtsias/Time-series-predi
 
 ![alt text](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/blob/master/Results/Results.png)
 
+<img src="images/Results NARX/Results.png"
+
 Figure 1: Real and predicted values of exhaust fume temperature for 3 distinct experimental drive cycles. 
