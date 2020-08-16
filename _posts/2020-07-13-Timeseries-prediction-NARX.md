@@ -26,11 +26,11 @@ Two variation of prediction scripts were included. The first one ([Prediction.m]
 
 # Results
 
-The [optimally trained NARX](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/tree/master/OptimallyTrainedANNs) was able to successfully predict all 3 testing datasets, each one corresponding to a single driving cycle. For the first 1/3 of the prediction an opened loop NARX version was utilised, while for the remaining time series data points a closed-loop one was employed. 
+The [optimally trained NARX](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/tree/master/OptimallyTrainedANNs) was able to successfully predict all 3 testing datasets, each one corresponding to a single driving cycle. For the first 1/3 of the prediction an opened loop NARX version was utilised, while for the remaining time series data points a closed-loop one was employed.  The [results]
 
-![alt text](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/blob/master/Results/Results.png)
+![alt text](https://github.com/GeorgiosEtsias/GeorgiosEtsias.github.io/blob/master/images/Results%20NARX/Results.png)
 
-<img src="https://github.com/GeorgiosEtsias/GeorgiosEtsias.github.io/blob/master/images/Results%20NARX/Results.png" alt="Flowers in Chania"
+<img src="https://github.com/GeorgiosEtsias/GeorgiosEtsias.github.io/blob/master/images/Results%20NARX/Results.png" alt="Flowers in Chania">
 
 <img src="img_chania.jpg" alt="Flowers in Chania" width="460" height="345">
 
