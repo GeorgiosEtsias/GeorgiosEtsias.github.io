@@ -22,7 +22,7 @@ Two different scripts for ANN training are included.  [TrainANN.m](https://githu
 
 **Prediction**
 
-Two variation of prediction scripts were included. The first one ([Prediction.m](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/blob/master/Prediction.m))makes a strictly closed-loop prediction of the tree testing datasets, while [PredictionOpenClose.m](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/blob/master/PredictionOpenClose.m) uses executes an open-loop prediction for the initial 1/3 of the test sets and a closed-loop prediction for the remaining data-points. 
+Two variation of prediction scripts were included. The first one ([Prediction.m](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/blob/master/Prediction.m)) makes a strictly closed-loop prediction of the tree testing datasets, while [PredictionOpenClose.m](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/blob/master/PredictionOpenClose.m) uses executes an open-loop prediction for the initial 1/3 of the test sets and a closed-loop prediction for the remaining data-points. 
 
 # Results
 
