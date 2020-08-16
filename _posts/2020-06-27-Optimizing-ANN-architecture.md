@@ -4,7 +4,7 @@ date: 2020-06-27
 tags: [neural networks, genetic algorithm, heuristics]
 header:
   #image: "/images/perceptron/NeuralNetwrok.JPG"
-excerpt: "Neural networks, Genetic algorithm, Heuristics"
+excerpt: "Neural networks, Genetic algorithm, Heuristics, MatLab"
 mathjax: "true"
 ---
 
