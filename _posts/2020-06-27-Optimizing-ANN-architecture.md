@@ -3,7 +3,7 @@ title: "Optimizing ANN architecture using genetic algortihms"
 date: 2020-06-27
 tags: [neural networks, genetic algorithm, heuristics]
 header:
-  image: "/images/perceptron/NeuralNetwrok.JPG"
+  #image: "/images/perceptron/NeuralNetwrok.JPG"
 excerpt: "Neural networks, Genetic algorithm, Heuristics"
 mathjax: "true"
 ---
