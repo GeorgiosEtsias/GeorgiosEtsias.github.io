@@ -37,7 +37,7 @@ Two variations of the prediction scripts were included. The first one ([Predicti
 
 The [optimally trained NARX](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/tree/master/OptimallyTrainedANNs) was able to successfully predict all 3 testing datasets, each one corresponding to a single driving cycle. For the first 1/3 of the prediction an opened loop NARX version was utilised, while for the remaining time series data points a closed-loop one was employed. 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Results%20NARX/Results.png" alt="l try">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Results%20NARX/Prediction.png" alt="l try">
 
 Figure 3: Real and predicted values of exhaust fume temperature for the 3 distinct experimental drive cycles. 
 
