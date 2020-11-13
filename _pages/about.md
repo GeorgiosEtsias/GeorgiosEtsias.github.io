@@ -2,7 +2,7 @@
 title: "Who I am"
 permalink: /about/
 header:
-  image: "/images/Background.jpg"
+  image: "/images/Scenery.png"
 ---
 
 I am a civil/environmental engineer and an aspiring data scientist, with a solid background in machine learning, image analysis and experimental data acquisition and filtering. I have conducted research in the United Kingdom, the United States and Greece.
