@@ -12,6 +12,7 @@ Github repository [link](https://github.com/GeorgiosEtsias/Time-series-predictio
 The project uses a [nonlinear autoregressive exogenous (NARX)](https://en.wikipedia.org/wiki/Nonlinear_autoregressive_exogenous_model), model to make time-series prediction on data obtained from drive cycling testing on buses. In total 25 data-series ([bus2data.m](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/tree/master/Data)), corresponding to three different [drive cycles](https://en.wikipedia.org/wiki/Driving_cycle) were obtained from the same bus. In each dataset four variables were experimentally quantified: engine torque, engine speed, air temperature intake, and exhaust fume temperature. Exhaust fume temperature served as the output variable, while the remaining 3 were the inputs of the NARX. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Results%20NARX/BusBelfast.jpg" alt="l try">
+Figure 1: A bus in the streets of Belfast ([source](https://www.irishnews.com/news/northernirelandnews/2016/11/16/news/bus-route-in-west-belfast-remains-suspended-due-to-anti-social-behaviour-785974/))
 
 Five different MATLAB scripts were included in the repository:
 
@@ -20,6 +21,9 @@ Five different MATLAB scripts were included in the repository:
 **Data pre-processing**
 
 Data pre-processing is conducted in [DataPreProcessingBus2.m](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/blob/master/DataPreProcessingBus2.m). The data are modified in order to create a single training dataset, containing 22 of the 25 time series. Three datasets, one from each corresponding driving cycle, were not involved in training, instead they were used to evaluate NARX’s generalization ability. 
+
+![alt text](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/blob/master/Data/AllData.png)
+Figure 2: The 25 utilized exhaust fume temperature timeseries
 
 **Training**
 
@@ -35,5 +39,5 @@ The [optimally trained NARX](https://github.com/GeorgiosEtsias/Time-series-predi
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Results%20NARX/Results.png" alt="l try">
 
-Figure 1: Real and predicted values of exhaust fume temperature for the 3 distinct experimental drive cycles. 
+Figure 3: Real and predicted values of exhaust fume temperature for the 3 distinct experimental drive cycles. 
 
