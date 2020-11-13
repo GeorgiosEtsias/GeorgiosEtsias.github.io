@@ -23,7 +23,7 @@ Five different MATLAB scripts were included in the repository:
 Data pre-processing is conducted in [DataPreProcessingBus2.m](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/blob/master/DataPreProcessingBus2.m). The data are modified in order to create a single training dataset, containing 22 of the 25 time series. Three datasets, one from each corresponding driving cycle, were not involved in training, instead they were used to evaluate NARX’s generalization ability. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Results%20NARX/AllData.png" alt="l try">
-Figure 2: The 25 utilized exhaust fume temperature timeseries ([full resolution](https://github.com/GeorgiosEtsias/GeorgiosEtsias.github.io/blob/master/images/Results%20NARX/AllData.png))
+Figure 2: The 25 utilized exhaust fume temperature timeseries ([full resolution](https://github.com/GeorgiosEtsias/GeorgiosEtsias.github.io/blob/master/images/Results%20NARX/AllData.jpg))
 
 **Training**
 
