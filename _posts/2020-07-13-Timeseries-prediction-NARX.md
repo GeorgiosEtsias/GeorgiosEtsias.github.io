@@ -9,7 +9,7 @@ mathjax: "true"
 ---
 Github repository [link](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX)
 
-The project uses a [nonlinear autoregressive exogenous (NARX)](https://en.wikipedia.org/wiki/Nonlinear_autoregressive_exogenous_model), model to make time-series prediction on data obtained from drive cycling testing on buses. In total 25 data-series, corresponding to three different [drive cycles](https://en.wikipedia.org/wiki/Driving_cycle) were obtained from the same bus. In each dataset four variables were experimentally quantified: engine torque, engine speed, air temperature intake, and exhaust fume temperature. Exhaust fume temperature served as the output variable, while the remaining 3 were the inputs of the NARX. 
+The project uses a [nonlinear autoregressive exogenous (NARX)](https://en.wikipedia.org/wiki/Nonlinear_autoregressive_exogenous_model), model to make time-series prediction on data obtained from drive cycling testing on buses. In total 25 data-series ([bus2data.m](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/tree/master/Data)), corresponding to three different [drive cycles](https://en.wikipedia.org/wiki/Driving_cycle) were obtained from the same bus. In each dataset four variables were experimentally quantified: engine torque, engine speed, air temperature intake, and exhaust fume temperature. Exhaust fume temperature served as the output variable, while the remaining 3 were the inputs of the NARX. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Results%20NARX/BusBelfast.jpg" alt="l try">
 
