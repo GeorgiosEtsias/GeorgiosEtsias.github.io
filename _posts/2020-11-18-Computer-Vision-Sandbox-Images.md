@@ -8,7 +8,7 @@ excerpt: "Neural networks, Image Analysis, Classification, Regression, MatLab"
 mathjax: "true"
 ---
 
-GitHub [link](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images)
+GitHub repository [link](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images)
 
 ## Table of contents
 - [Citing this work](#citing-this-work)
