@@ -24,7 +24,8 @@ GitHub repository [link](https://github.com/GeorgiosEtsias/Computer-Vision-Sandb
 ## Citing this work
 
 This project is part of the Saline Intrusion in Coastal Aquifers ([SALINA](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R019258/1)) research project. 
-The work was published under the title: [Optimizing Laboratory Investigations of Saline Intrusion by Incorporating Machine Learning Techniques](https://www.mdpi.com/2073-4441/12/11/2996)
+
+This work was originally published under the title: [Optimizing Laboratory Investigations of Saline Intrusion by Incorporating Machine Learning Techniques](https://www.mdpi.com/2073-4441/12/11/2996) in the Water MDPI journal.
 
 ## Project overview
 Deriving saltwater concentrations from the values of light intensity is a long-established image processing practice in laboratory scale investigations of saline intrusion. The current repository presents a novel methodology that employs the predictive ability of machine learning algorithms in order to determine saltwater concentration fields. The proposed approach consists of three distinct parts, image pre-processing, ground profile classification (bead structure recognition) and saltwater field generation (regression). It minimizes the need for aquifer-specific calibrations, significantly shortening the experimental procedure by up to 50% of the time required. 
