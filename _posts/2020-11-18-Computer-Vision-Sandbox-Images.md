@@ -8,7 +8,6 @@ excerpt: "Neural networks, Image Analysis, Classification, Regression, MatLab"
 mathjax: "true"
 ---
 
-# Application of computer vision on laboratory sandbox investigations 
 ## Table of contents
 - [Citing this work](#citing-this-work)
 
