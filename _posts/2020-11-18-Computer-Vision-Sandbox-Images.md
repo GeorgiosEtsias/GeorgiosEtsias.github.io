@@ -21,8 +21,6 @@ GitHub repository [link](https://github.com/GeorgiosEtsias/Computer-Vision-Sandb
 
 - [Regression](#regression)
 
-- [Common error](#common-error)
-
 ## Citing this work
 
 This project is part of the Saline Intrusion in Coastal Aquifers ([SALINA](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R019258/1)) research project. 
@@ -85,11 +83,4 @@ This part determines the optimum combination between the Perfect C=0% and Predec
 Scripts: [GeneticAlgorithmSWCombination.m](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/blob/main/3%20Regression/3.3%20Genetic%20Algorithm%20Optimization/GeneticAlgorithmSWCombination.m) (main script executing the genetic algorithm iotimization), [ObjectiveSWcombination.m](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/blob/main/3%20Regression/3.3%20Genetic%20Algorithm%20Optimization/ObjectiveSWcombination.m) (the objective function that was optimmized), [gaplotbestcustom.m](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/blob/main/3%20Regression/3.3%20Genetic%20Algorithm%20Optimization/gaplotbestcustom.m) (ploting function)
 
 Data: PredictionC0.m, PredictionC100.m (ANN prediction results for the 24 calibration images,corresponding to 3 homogeneous aquifers), RealSW,mat (the actual calibration concentration of the 24 images, used to evaluate the preformance of the neural prediction)
-
-## Common error
-
-When neural training using relatively big datasets (similar to the ones in this repository) is attempted, MATLAB might return an out-of-memory error. 
-
-In the conference paper titled ['The effect of colour depth and image resolution on laboratory scale study of aquifer saltwater intrusion'](https://www.researchgate.net/publication/343976955_The_effect_of_colour_depth_and_image_resolution_on_laboratory_scale_study_of_aquifer_saltwater_intrusion) our research team proved that in the laboratory studies of saltwater intrusion, images of reduced dimension can still recreate high quality saltwater concentration fields. The imeresize.m built in MATLAB function is an easy way of modifying the available datasets. 
-
 
