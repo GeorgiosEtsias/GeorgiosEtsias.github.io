@@ -1,10 +1,10 @@
 ---
-title: "Stacked ANN ensemble "
+title: "Application of computer vision on laboratory sandbox investigations"
 date: 2020-06-23
-tags: [neural networks, stacking, ensemble learning]
+tags: [neural networks, image processing, regression, classification, genetic algothim]
 header:
   
-excerpt: "Neural networks, Stacking, Ensemble learning, MatLab"
+excerpt: "Neural networks, Image Analysis, MatLab"
 mathjax: "true"
 ---
 
