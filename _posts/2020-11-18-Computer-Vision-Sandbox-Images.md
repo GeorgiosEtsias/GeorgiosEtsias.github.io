@@ -122,6 +122,8 @@ Data: Cal780G.mat, Cal1090G.mat, Cal1325G.mat (green (G) light intensity values 
 
 In order to minimize the impact of noisy data, caused by the presence of beads of varying colour tones, a quantification of the optical irregularities of the glass bead medium was essential. This procedure took place in the freshwater only images of the tested aquifers. To do so the LI values of each individual pixel were divided with the corresponding measured average LI value of its bead size.  In doing so, a Bead Optical Irregularity Metric (BOIM) was derived characterising each specific bead of the investigated aquifers as shown in Equation 2, assigning higher and lower BOIM values to lighter and darker beads respectively.
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/Comp.Vision.Figures/FigBOIM.png" alt="l try">
+
 By dividing the freshwater only image of any aquifer with its corresponding BOIM matrix, the mean LI values the feedforward ANN was trained upon are returned. When these values were fed on the neural network the 0 % SW concentration fields was perfectly recreated. The same procedure was repeated for saltwater-only images of the aquifers, deriving the BOIM corresponding to the 100% saltwater percentage. This leading to perfect prediction of the 100% SW concentration components of the testing images. Dividing the SWI test images with BOIM0 and BOIM100 creates two data subsets that, when fed to the neural network, generate a perfect prediction of the two main concentration regions. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Comp.Vision.Figures/Fig9.png" alt="l try">
