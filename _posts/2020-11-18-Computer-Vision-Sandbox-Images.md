@@ -165,6 +165,8 @@ where j is the number of homogeneous aquifers (three) and i is the number of cal
 <img src="{{ site.url }}{{ site.baseurl }}/images/Comp.Vision.Figures/Fig13.png" alt="l try">
 Calculation of weights for the weighted averaging of generated Mean Squared Erro
 
+#### Folder material description
+
 Scripts: [GeneticAlgorithmSWCombination.m](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/blob/main/3%20Regression/3.3%20Genetic%20Algorithm%20Optimization/GeneticAlgorithmSWCombination.m) (main script executing the genetic algorithm iotimization), 
 
 [ObjectiveSWcombination.m](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/blob/main/3%20Regression/3.3%20Genetic%20Algorithm%20Optimization/ObjectiveSWcombination.m) (the objective function that was optimmized), 
