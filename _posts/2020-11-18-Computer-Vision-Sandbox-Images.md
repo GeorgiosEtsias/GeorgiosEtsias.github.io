@@ -164,7 +164,7 @@ Scripts: [GeneticAlgorithmSWCombination.m](https://github.com/GeorgiosEtsias/Com
 
 [gaplotbestcustom.m](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/blob/main/3%20Regression/3.3%20Genetic%20Algorithm%20Optimization/gaplotbestcustom.m) (ploting function)
 
-Data: PredictionC0.m, PredictionC100.m (ANN prediction results for the 24 calibration images,corresponding to 3 homogeneous aquifers), 
+Data: PredictionC0.mat, PredictionC100.mat (ANN prediction results for the 24 calibration images,corresponding to 3 homogeneous aquifers), 
 
-RealSW,mat (the actual calibration concentration of the 24 images, used to evaluate the preformance of the neural prediction)
+RealSW.mat (the actual calibration concentration of the 24 images, used to evaluate the preformance of the neural prediction)
 
