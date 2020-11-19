@@ -1,6 +1,6 @@
 ---
 title: "Application of computer vision on laboratory sandbox investigations"
-date: 2020-06-23
+date: 2020-11-15
 tags: [neural networks, image processing, regression, classification, genetic algothim]
 header:
   
