@@ -4,7 +4,7 @@ permalink: /data-wrangling/
 title: "Machine Learning projects"
 author_profile: true
 header:
-  image: "/images/Back.PNG"
+  image: "/images/network.jpg"
 ---
 
 
