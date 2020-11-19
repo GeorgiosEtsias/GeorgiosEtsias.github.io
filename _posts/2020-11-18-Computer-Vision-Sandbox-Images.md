@@ -31,12 +31,12 @@ This work was originally published under the title: [Optimizing Laboratory Inves
 Deriving saltwater concentrations from the values of light intensity is a long-established image processing practice in laboratory scale investigations of saline intrusion. The current repository presents a novel methodology that employs the predictive ability of machine learning algorithms in order to determine saltwater concentration fields. The proposed approach consists of three distinct parts, image pre-processing, ground profile classification (bead structure recognition) and saltwater field generation (regression). It minimizes the need for aquifer-specific calibrations, significantly shortening the experimental procedure by up to 50% of the time required. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Comp.Vision.Figures/Fig1.PNG" alt="l try">
-*A graphical outline of the investigation*
+#### A graphical outline of the investigation
 
 The methodology introduced in this investigation comprises three sections. The first part involves experimental image pre-processing via both established and novel procedures. The second part treats the task of recognizing aquifer heterogeneity as a multinomial pixel wise classification problem. Lastly the third section derives the saltwater concentration fields via regression analysis on the values of light intensity (LI) and the corresponding bead sizes. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Comp.Vision.Figures/Fig2.png" alt="l try">
-*Flowchart of the proposed methodology depicting its three distinct parts a) image pre-processing, b) bead structure recognition (classification) and c) saltwater field generation (regression)*
+*Flowchart of the proposed methodology depicting its three distinct parts a) image pre-processing, b) bead structure recognition (classification) and c) saltwater field generation (regression)
 
 Three homogeneous aquifers served as the training datasets for all the machine learning algorithms. The remaining aquifers were utilized for quantifying the models’ generalization ability. It was established that one homogeneous aquifer per bead size used, generated sufficient data for the successful implementation of the method. After the training of the neural learners was complete, saltwater concentration fields could be successfully generated with no further calibration effort for any number of new homogeneous or heterogeneous aquifers.
 
