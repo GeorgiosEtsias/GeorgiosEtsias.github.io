@@ -40,8 +40,6 @@ The methodology introduced in this investigation comprises three sections. The f
 <img src="{{ site.url }}{{ site.baseurl }}/images/Comp.Vision.Figures/Fig2.png" alt="l try">
 *Flowchart of the proposed methodology depicting its three distinct parts a) image pre-processing, b) bead structure recognition (classification) and c) saltwater field generation (regression)*
 
-Three homogeneous aquifers served as the training datasets for all the machine learning algorithms. The remaining aquifers were utilized for quantifying the models’ generalization ability. It was established that one homogeneous aquifer per bead size used, generated sufficient data for the successful implementation of the method. After the training of the neural learners was complete, saltwater concentration fields could be successfully generated with no further calibration effort for any number of new homogeneous or heterogeneous aquifers.
-
 ## Data description
 
 A thin sandbox etup was used to recreate the experimental data utilized in this project. The coastal aquifers were approximated by filling the central chamber with clear glass beads of three predetermined diameters (780 μm, 1090 μm, 1325 μm). In most test cases the reservoir on the left was filled with fresh water, while the one on the right contained saltwater with a density of 1025 kg/m3. The saltwater was dyed using red food colouring at a mix ratio of 0.15 g/L of solution. Two fine mesh acrylic screens were used to retain the beads in the main part of the apparatus while still permitting water circulation between the two tanks and the viewing chamber. Adjustable overflow outlets controlled the water level in the two side chambers and incremental changes in water level were achieved via the use of two ultrasonic sensors. The measurements took place in a totally dark room.
@@ -59,6 +57,8 @@ The investigation involves two categories of data, calibration and test images. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Comp.Vision.Figures/Fig2.5.PNG" alt="l try">
 *Experimental aquifer images used as training and testing datasets by the classification and regression machine learning algorithms*
+
+Three homogeneous aquifers served as the training datasets for all the machine learning algorithms. The remaining aquifers were utilized for quantifying the models’ generalization ability. It was established that one homogeneous aquifer per bead size used, generated sufficient data for the successful implementation of the method. After the training of the neural learners was complete, saltwater concentration fields could be successfully generated with no further calibration effort for any number of new homogeneous or heterogeneous aquifers.
 
 ## Image pre-processing
 
