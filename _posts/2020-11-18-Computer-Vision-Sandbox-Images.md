@@ -42,25 +42,25 @@ The methodology introduced in this investigation comprises three sections. The f
 
 ## Data description
 
-A thin sandbox setup was used to recreate the experimental data utilized in this project. The coastal aquifers were approximated by filling the central chamber with clear glass beads of three predetermined diameters (780 μm, 1090 μm, 1325 μm). In most test cases the reservoir on the left was filled with fresh water, while the one on the right contained saltwater with a density of 1025 kg/m3. The saltwater was dyed using red food colouring at a mix ratio of 0.15 g/L of solution. Two fine mesh acrylic screens were used to retain the beads in the main part of the apparatus while still permitting water circulation between the two tanks and the viewing chamber. Adjustable overflow outlets controlled the water level in the two side chambers and incremental changes in water level were achieved via the use of two ultrasonic sensors. The measurements took place in a totally dark room.
+A thin sandbox setup was used to recreate the experimental data utilized in this project. The coastal aquifers were approximated by filling the central chamber with clear glass beads of three predetermined diameters (780 μm, 1090 μm, 1325 μm). In most test cases the reservoir on the left was filled with fresh water, while the one on the right contained dyed (red) saltwater. Two fine mesh acrylic screens were used to retain the beads in the main part of the apparatus while still permitting water circulation between the two tanks and the viewing chamber. Adjustable overflow outlets controlled the water level in the two side chambers and incremental changes in water level were achieved via the use of two ultrasonic sensors. The measurements took place in a totally dark room.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Comp.Vision.Figures/Fig02.png" alt="l try">
 *3-d depiction of the experimental sandbox setup*
 
-For the classification analysis part, freshwater only photos of the experimen tal aquifers were used. Homogeneous aquifers served as training and testing data, while stratified ones were strictly used for testing. 
+During the classification analysis, freshwater-only photos of the experimental aquifers were used. Homogeneous aquifers served as training and testing data, while stratified ones were strictly used for testing. 
 
 The regression anlysis part involved two categories of data, calibration and test images. Calibration images were created by filling homogeneous aquifers (one for every utlized bead size) with saltwater - freshwater solutions of predetermined concentrations, where SW = 0 %, 5 %, 10 %, 20 %, 30%, 50 %, 70 %, 100 %. Test images were created by generating either a saltwater wedge or a saline plume in stratified coastal aquifers. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Comp.Vision.Figures/Fig0.png" alt="l try">
-*The 24 calibration images utilized the investigation*
+*The 24 calibration images utilized in the investigation*
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Comp.Vision.Figures/Fig01.png" alt="l try">
 *Three test images demonstrating different types of saline intrusion in stratified aquifers*
 
+Three homogeneous aquifers served as the training datasets for all the machine learning algorithms. The remaining aquifers were utilized for quantifying the models’ generalization ability. It was established that one homogeneous aquifer per bead size used, generated sufficient data for the successful implementation of the method. After the training of the neural learners was complete, saltwater concentration fields could be successfully generated with no further calibration effort for any number of new homogeneous or heterogeneous aquifers.
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/Comp.Vision.Figures/Fig2.5.PNG" alt="l try">
 *Experimental aquifer images used as training and testing datasets by the classification and regression machine learning algorithms*
-
-Three homogeneous aquifers served as the training datasets for all the machine learning algorithms. The remaining aquifers were utilized for quantifying the models’ generalization ability. It was established that one homogeneous aquifer per bead size used, generated sufficient data for the successful implementation of the method. After the training of the neural learners was complete, saltwater concentration fields could be successfully generated with no further calibration effort for any number of new homogeneous or heterogeneous aquifers.
 
 ## Image pre-processing
 
