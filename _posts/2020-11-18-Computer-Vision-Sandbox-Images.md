@@ -47,7 +47,9 @@ A thin sandbox etup was used to recreate the experimental data utilized in this 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Comp.Vision.Figures/Fig02.png" alt="l try">
 *3-d depiction of the experimental sandbox setup*
 
-The investigation involves two categories of data, calibration and test images. Calibration images were created by filling homogeneous aquifers (one for every utlized bead size) with saltwater - freshwater solutions of predetermined concentrations, where SW = 0 %, 5 %, 10 %, 20 %, 30%, 50 %, 70 %, 100 %. Test images were created by generating either a saltwater wedge or a saline plume in stratified coastal aquifers. 
+For the classification analysis part, freshwater only photos of the experimen tal aquifers were used. Homogeneous aquifers served as training and testing data, while stratified ones were strictly used for testing. 
+
+The regression anlysis part involved two categories of data, calibration and test images. Calibration images were created by filling homogeneous aquifers (one for every utlized bead size) with saltwater - freshwater solutions of predetermined concentrations, where SW = 0 %, 5 %, 10 %, 20 %, 30%, 50 %, 70 %, 100 %. Test images were created by generating either a saltwater wedge or a saline plume in stratified coastal aquifers. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Comp.Vision.Figures/Fig0.png" alt="l try">
 *The 24 calibration images utilized the investigation*
