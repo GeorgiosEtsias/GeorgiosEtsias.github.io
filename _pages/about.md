@@ -5,7 +5,7 @@ header:
   image: "/images/Scenery.PNG"
 ---
 
-I am a Belfast-based environmental engineer / data scientist,with a solid background in deep learning, computer vision, NLP and time-series prediction, while I have four years of experience as a full-time researcher in the United States and the United Kingdom.
+I am a Belfast-based environmental engineer / data scientist, with a solid background in deep learning, computer vision, NLP and time-series prediction, while I have four years of experience as a full-time researcher in the United States and the United Kingdom.
 
 I currently work on on the formulation of novel image analysis techniques and the application of computer vision algorithms on experimental photographs of saltwater intrusion. 
 The goal of the investigation is the automatic detection of groundwater flow patterns inside synthetic aquifers. This was achieved by conducting classification and regression analysis on the available laboratory data, through testing the implementation of multiple machine learning models. Part of this work has been published in both conferences and scientific journals during 2020. Supplementary to that, I have been working on the application of recurrent neural networks (RNN) for times-series prediction. I am proficient in three programming languages, and have a deep knowledge of statistics and optimization algorithms.
